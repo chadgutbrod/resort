@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Image Viewer</title>
+    <style>
+  #image-container {
+    text-align: center;
+  }
+  #main-image {
+    max-width: 80%;
+    max-height: 80vh;
+  }
+  #navigation {
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div id="image-container">
+    <img id="main-image" src="" alt="Image">
+    <div id="navigation">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+    </div>
+</div>
+
+<script>
+  const images = [
+    "../images/blackbear/bed1.jpg",
+    "image2.png",
+    "image3.gif",
+    "image4.webp",
+    "image5.jpeg"
+  ]; // Replace with your image paths
+
+  let currentIndex = 0;
+  const mainImage = document.getElementById("main-image");
+  const prevBtn = document.getElementById("prev-btn");
+  const nextBtn = document.getElementById("next-btn");
+
+  function updateImage() {
+    mainImage.src = images[currentIndex];
+  }
+
+  function showNextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateImage();
+  }
+
+  function showPreviousImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateImage();
+  }
+
+  prevBtn.addEventListener("click", showPreviousImage);
+  nextBtn.addEventListener("click", showNextImage);
+
+  // Initial image load
+  updateImage();
+</script>
+
+</body>
+</html>

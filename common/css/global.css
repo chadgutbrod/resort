@@ -1,0 +1,198 @@
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GLOBAL ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+	background-image: url(../../Images/General/background.gif);
+}
+
+body, td, div, textarea, input {
+	font-family: "Arial";
+	font-size: 12px;
+}
+
+a {
+	color: #663333;
+}
+/*
+a:hover {
+	color: #996600
+}
+*/
+h3 {
+	text-align: center;
+}
+
+.subHeader {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.attention {
+	color: red;
+}
+
+.clickImages {
+	font-size: 11px;
+	font-style: italic;
+	text-align: center;
+}
+
+.smallText {
+	font-size: 10px;
+}
+
+.halfline {
+	font-size: 6px;
+}
+
+#offSeasonPricing {
+	color: black;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ HOME PAGE ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.relax {
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+#cabins {
+	font-size: 13px;
+	font-weight: bold;
+	color: #663333;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ HOME PAGE MESSAGE ~~~~~~~~~~~~~~~~~~~~~~ */
+
+.redAlertHeader {
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+.redAlert {
+	color: red;
+	font-weight: bold;
+}
+
+.blackAlertHeader {
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+.blackAlert {
+	font-weight: bold;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ FOOTER LINKS ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footerText {
+	color: #663333;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.footerText:hover {
+	color: #996600;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ RATE TABLES ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.rateBorder {
+	background-color: #663333;
+}
+
+.rateBackground {
+	background-color: #EBE9CA;
+}
+
+.darkRow {
+	background-color: #D4CEA7;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ BUTTONS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.button {
+    background-color:#604703;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #f3e77d;
+	display:inline-block;
+	color:#f3e77d;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	font-style:normal;
+	height:25px;
+	line-height:25px;
+	width:90px;
+	text-decoration:none;
+	text-align:center;
+}.button:hover, .button.active-page {
+	background-color:#a37706;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ADMIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.adminLink, .adminLink:hover {
+	text-decoration: none;
+	color: black;
+	cursor : text;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ ADMIN ASP MESSAGES ~~~~~~~~~~~~~~~~~~~~~ */
+.OKMessage {
+	font-size : 14px;
+	font-weight : bold;
+	color : green;
+}
+.errorMessage {
+	font-size : 14px;
+	font-weight : bold;
+	color : red;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~ ADMIN SECTION CHANGE ~~~~~~~~~~~~~~~~~~~~ */
+.interrupt {
+	color: gray;
+	text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ ADMIN MESSAGE ~~~~~~~~~~~~~~~~~~~~~~~~ */
+.txtRedAlertHeader {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	width: 460px;
+}
+
+.txtRedAlert {
+	color: red;
+	font-weight: bold;
+	width: 460px;
+	height: 150px;
+}
+
+.txtBlackAlertHeader {
+	text-align: center;
+	font-weight: bold;
+	width: 460px;
+}
+
+.txtBlackAlert {
+	font-weight: bold;
+	width: 460px;
+	height: 150px;
+}

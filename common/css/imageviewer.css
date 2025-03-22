@@ -1,0 +1,32 @@
+  #image-container {
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* Prevent horizontal scroll */
+  }
+
+  #main-image {
+    max-width: 90%; /* Adjust as needed */
+    max-height: 80vh;
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center image */
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+  }
+
+  #prev-arrow {
+    left: 10px;
+  }
+
+  #next-arrow {
+    right: 10px;
+  }
