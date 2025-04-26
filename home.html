@@ -16,6 +16,7 @@
 }
 	</script>
     <link rel="stylesheet" type="text/css" href="common/css/global.css">
+    <script src="common/js/menu2.js"></script>
 </head>
 
 <body onload="onLoad()">
@@ -32,33 +33,10 @@
 
     <tr>
 
-        <!-- MENU -->
         <td valign="top" align="center" width="140">
-
-            <span id="cabins">Lodges</span>
-            <br>
-            <br class="halfline">
-            <a href="blackbear.html" class="button">Black Bear</a>
-            <a href="brokenoar.html" class="button">Broken Oar</a>
-            <a href="cedarlodge.html" class="button">Cedar Lodge</a>
-            <a href="loonlodge.html" class="button">Loon Lodge</a>
-            <a href="timberwolf.html" class="button">Timber Wolf</a>
-
-            <br>
-            <br>
-            <a href="home.html" class="button active-page">Home</a>
-            <a href="information.html" class="button">Information</a>
-
-            <br>
-            <br>
-            <a style="font-weight:bold" href="http://www.availabilityonline.com/availtable.asp?un=hemlocktree">Availability</a>
-            <br>
-            <br class="halfline">
-            <a style="font-weight:bold" href="https://availabilityonline.com/res_form.asp?un=hemlocktree">Request Reservation</a>
-            <br>
-            <br class="halfline">
+            <div id="menu"></div>
+            <script>renderMenu('home');</script>
         </td>
-        <!-- END MENU -->
 
         <!-- CONTENT AREA -->
         <td width="460">
@@ -74,16 +52,17 @@
             </div>
 
             <!-- MESSAGE SECTION -->
-            <!--
-            <p><div class="redAlertHeader" style="margin-bottom:12px;font-size:120%">DUE TO A RECENT CANCELLATION, WE NOW HAVE OUR <a href="brokenoar.html">BROKEN OAR</a> OPEN </div></p>
-    -->
-            <!--
+
+            <p><div class="redAlertHeader" style="margin-bottom:12px;font-size:120%">MEMORIAL DAY WEEKEND OPENINGS!</div></p>
+
+
             <p>
                             <div class="redAlert" style="margin-bottom:12px;font-size:120%">
-                             Due to a last minute cancellation we now have our <a href="LoonLodge.asp">Loon Lodge</a> open the week of August 30th - September 6th.  We would be willing to take a 3 nite stay over Labor Day weekend! Call us now at 715-546-3033!
+                             We have our <a href="blackbear.html">Black Bear</a> and <a href="loonlodge.html">Loon Lodge</a> open for Memorial Day Weekend.
+                            Please call us at 715-546-3033 for a special deal!
                             </div>
                         </p>
-            -->
+
 
             <!--
             <p>
@@ -175,7 +154,7 @@
     <tr>
         <td class="smallText" align="center" nowrap>
             <br>
-            Last Updated: 3/22/2025
+            Last Updated: 4/26/2025
         </td>
         <td>
             <table border="0" cellpadding="4" cellspacing="0" width="500" align="center">
